@@ -1,0 +1,40 @@
+Options Pricing & Risk Analytics — Results Summary
+
+Ticker: AAPL
+Current Stock Price: $327.05
+Strike Price: $330
+Time to Maturity: 0.5 years
+Annualized Historical Volatility: 28.77%
+Risk-Free Rate: 4.5%
+Monte Carlo Simulations: 100,000
+
+BLACK-SCHOLES PRICING
+Call Price: $28.58
+Put Price: $24.18
+
+MONTE CARLO PRICING
+Call Price: $28.65
+Put Price: $24.18
+
+MODEL COMPARISON
+Call Price Difference: $0.07
+Put Price Difference: -$0.01
+
+OPTION GREEKS
+Call Delta: 0.566780
+Put Delta: -0.433220
+Gamma: 0.005911
+Vega: 0.909635
+Call Theta: -0.091040
+Put Theta: -0.051260
+Call Rho: 0.783942
+Put Rho: -0.829347
+
+VALUE AT RISK
+Portfolio Value: $100,000
+95% Historical VaR: $2,701.72
+99% Historical VaR: $4,980.49
+
+KEY OBSERVATION
+Black-Scholes and Monte Carlo produced very similar option prices,
+with only about a $0.07 difference in call-option valuation.
